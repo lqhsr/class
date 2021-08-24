@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head> <script>goGuest()</script>
+  <head> 
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="icon" href="icon.ico" type="image/x-icon"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,11 +21,9 @@
 })();
     </script>
   </head>
-  <body>
+  <body><script>goGuest()</script>
     <div id="allmap"></div>
-    <p id="welcome_title" hidden><span id="class_name">长郡中学LHR</span><br/><b>蹭饭指南</b></p>
     <div id="key_input" hidden>
-      <input id="key" type="password" placeholder="我们的密钥 | 回车确认"  autofocus onKeyDown="enterdecode(event);"/>
       <br/>
       <a href="javascript:goGuest()">访客入口</a>
     </div>
